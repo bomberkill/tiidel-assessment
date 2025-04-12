@@ -1,0 +1,39 @@
+{
+    "welcome": "Bienvenue à ",
+    "header":{
+        "connect": "Se connecter",
+        "help": "Besoin d'aide ?",
+        "links": {
+            "home": "Accueil",
+            "about": "À Propos",
+            "services": "Nos Services",
+            "providers": "Les Prestataires",
+            "contact": "Contacts"
+        }
+    },
+    "footer": {
+        "about": {
+            "title": "A Propos",
+            "text1": "Nos Services",
+            "text2": "Nos Services",
+            "text3": "Nos Services"
+        },
+        "pageLinks": {
+            "title": "Lien de Page",
+            "home": "Accueil",
+            "about": "À propos de Nous",
+            "services": "Nos Services",
+            "providers": "Les Prestataires"
+        },
+        "services": {
+            "title": "Nos Services",
+            "text1": "Nos Services",
+            "text2": "Nos Services",
+            "text3": "Nos Services"
+        },
+        "pages": {
+            "title": "Nos Pages",
+            "follow": "Suivez-nous"
+        }
+    }
+}

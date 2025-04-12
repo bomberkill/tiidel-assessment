@@ -1,0 +1,39 @@
+{
+    "welcome": "Welcome to ",
+    "header": {
+        "connect": "Sign In",
+        "help": "Need help?",
+        "links": {
+            "home": "Home",
+            "about": "About",
+            "services": "Our Services",
+            "providers": "Providers",
+            "contact": "Contact"
+        }
+    },
+    "footer": {
+      "about": {
+        "title": "About",
+        "text1": "Our Services",
+        "text2": "Our Services",
+        "text3": "Our Services"
+      },
+      "pageLinks": {
+        "title": "Page Links",
+        "home": "Home",
+        "about": "About Us",
+        "services": "Our Services",
+        "providers": "Providers"
+      },
+      "services": {
+        "title": "Our Services",
+        "text1": "Our Services",
+        "text2": "Our Services",
+        "text3": "Our Services"
+      },
+      "pages": {
+        "title": "Our Pages",
+        "follow": "Follow Us"
+      }
+    }     
+}

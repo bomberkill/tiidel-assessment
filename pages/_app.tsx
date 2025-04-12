@@ -1,11 +1,15 @@
 import '@mantine/core/styles.css';
 
 import type { AppProps } from 'next/app';
+import { appWithTranslation } from 'next-i18next';
 import Head from 'next/head';
 import { MantineProvider } from '@mantine/core';
 import { theme } from '../theme';
+import Footer from '@/components/Footer/Footer';
+import Header from '@/components/Header/Header';
+import '@mantine/carousel/styles.css';
 
-export default function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <MantineProvider theme={theme}>
       <Head>
@@ -14,9 +18,14 @@ export default function App({ Component, pageProps }: AppProps) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
         />
-        <link rel="shortcut icon" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/logo.svg" />
       </Head>
+      <Header/>
       <Component {...pageProps} />
+      <Footer/>
     </MantineProvider>
   );
 }
+
+
+export default appWithTranslation(App)
