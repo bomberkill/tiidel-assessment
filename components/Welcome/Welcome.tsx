@@ -1,9 +1,9 @@
+import { useTranslation } from 'next-i18next';
 import { Anchor, Text, Title } from '@mantine/core';
 import classes from './Welcome.module.css';
-import { useTranslation } from 'next-i18next';
 
 export function Welcome() {
-  const {t} = useTranslation('common');
+  const { t } = useTranslation('common');
   return (
     <>
       <Title className={classes.title} ta="center" mt={100}>

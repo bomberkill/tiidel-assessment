@@ -1,12 +1,13 @@
 import '@mantine/core/styles.css';
 
 import type { AppProps } from 'next/app';
-import { appWithTranslation } from 'next-i18next';
 import Head from 'next/head';
+import { appWithTranslation } from 'next-i18next';
 import { MantineProvider } from '@mantine/core';
-import { theme } from '../theme';
 import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
+import { theme } from '../theme';
+
 import '@mantine/carousel/styles.css';
 
 function App({ Component, pageProps }: AppProps) {
@@ -20,12 +21,11 @@ function App({ Component, pageProps }: AppProps) {
         />
         <link rel="shortcut icon" href="/logo.svg" />
       </Head>
-      <Header/>
+      <Header />
       <Component {...pageProps} />
-      <Footer/>
+      <Footer />
     </MantineProvider>
   );
 }
 
-
-export default appWithTranslation(App)
+export default appWithTranslation(App);
